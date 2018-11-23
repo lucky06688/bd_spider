@@ -103,5 +103,9 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-whls/
+# editor
 .idea/
+.vscode/
+
+# my custom
+whls/
