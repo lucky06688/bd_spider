@@ -107,5 +107,7 @@ venv.bak/
 .idea/
 .vscode/
 
-# my custom
+# project specify
+/test.py
 whls/
+**/result
