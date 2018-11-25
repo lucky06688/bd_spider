@@ -1,13 +1,11 @@
 from twisted.internet import reactor
-import scrapy
 from scrapy.crawler import CrawlerRunner
-# from scrapy.utils.log import configure_logging
 from scrapy.utils.project import get_project_settings
 from bd_spider.spiders.bd_spider import BdSpider
+from bd_spider.spiders.bd_spider import DEFAULT_DD
 
-# configure_logging()
 runner = CrawlerRunner(get_project_settings())
 
-d = runner.crawl(BdSpider)
+d = runner.crawl(BdSpider, wd='bilibili', pn=3, dd=DEFAULT_DD)
 d.addBoth(lambda _: reactor.stop())
 reactor.run()
