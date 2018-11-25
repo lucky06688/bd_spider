@@ -6,6 +6,7 @@ from bd_spider import settings
 
 DEFAULT_DD = os.path.join(settings.PROJECT_ROOT, 'result')
 
+
 class BdSpider(scrapy.Spider):
     name = "bd"
 
