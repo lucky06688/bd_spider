@@ -19,7 +19,7 @@ Getting Started
 Example:
 
     cd bd_spider      
-    scrapy crawl bd -a wd="文法解析器" pn=1000 dd="/path/to/store/files/"
+    scrapy crawl bd -a wd="文法解析器" -a pn=1000 -a dd="/path/to/store/files/"
     
 Or:
  
