@@ -96,5 +96,5 @@ ITEM_PIPELINES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 MEDIA_ALLOW_REDIRECTS = True
-DOWNLOAD_TIMEOUT = 10
+DOWNLOAD_TIMEOUT = 20
 LOG_LEVEL = 'INFO'
