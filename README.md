@@ -11,7 +11,7 @@ Installation
     
 Getting Started
 ------
-三个参数:
+四个参数:
 - wd:  关键词 (默认为 bilibili)
 - pn:  页数 (默认为 3)
 - dd:  结果的保存路径 (默认为 ./bd_spider/result/)
