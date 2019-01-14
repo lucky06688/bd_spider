@@ -59,6 +59,7 @@ class BdSpider(scrapy.Spider):
         else:
             self.logger.info('Unsupported response type: {}'
                              .format(response.__class__.__name__))
+            return
         fname = self.tp + '_' + self.wd + '_' + uuid.uuid4().hex + ext
         dd = self.dd
         if not os.path.isdir(dd):
